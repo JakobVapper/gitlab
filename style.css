@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    width: 100%;
+    position: sticky;
+    flex-direction: row;
+    border: 1px black solid;
+    z-index: 2;
+    padding: 4px 24px 16px;
+}
+
+.header-items{
+    display: flex;
+    align-items: center;
+}
+
+.header-links{
+    display: flex;
+    flex-direction: row;
+}
+
+.links{
+    box-sizing: border-box;
+    font-family: Inter,sans-serif;
+    min-width: 68px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 16px;
+    text-decoration: none;
+    color: #74717a;
+}
+
+.bar-and-buttons{
+    display: flex;
+    flex-direction: row;
+    padding-left: 520px;
+}
+
+.header-end-items{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.searchbar{
+    color: #74717a;
+}
+
+.trial-button-text{
+    box-sizing: border-box;
+    font-family: Inter,sans-serif;
+    min-width: 68px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    background-color: #171321;
+    color: white;
+}
+
+.sign-in-button-text{
+    box-sizing: border-box;
+    font-family: Inter,sans-serif;
+    min-width: 68px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    border: none;
+    background-color: white;
+    color: #74717a;
+}
+
+.body-intro{}
