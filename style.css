@@ -8,7 +8,6 @@ header{
     display: flex;
     top: 0;
     height: 100px;
-    width: 100%;
     background-color: white;
     width: 100%;
     position: sticky;
@@ -35,7 +34,7 @@ header{
     align-items: center;
     text-align: center;
     vertical-align: middle;
-    padding: 11px 16px;
+    padding-left: 30px;
     text-decoration: none;
     color: #74717a;
 }
@@ -84,7 +83,7 @@ header{
     padding: 11px 16px;
     text-decoration: none;
     border-radius: 4px;
-    font-weight: 600;
+    font-weight: 200;
     font-size: 18px;
     line-height: 20px;
     border: none;
@@ -198,38 +197,21 @@ h2{
     max-width: 100%;
 }
 
-.lines{
-    width: 100%;
-    height: auto;
-    padding-left: 400px;
-    padding-right: 400px;
-}
-
-.progressbar-container[data-v-b051b3e0] {
-    bottom: -64px;
-    max-width: 90vw;
-    margin: 0 0 0 -50%;
-    left: 50%;
-    position: absolute;
-    transform: translateX(-50%);
-    width: 768px;
-}
-
-.progressbar-container[data-v-b051b3e0] {
-    margin: 16px 0;
-}
-
-.progressbar-container[data-v-b051b3e0] {
+.customer-logos{
     display: flex;
-    width: 100%;
-    margin: 32px 0 48px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    margin-top: 96px;
+    margin-bottom: 64px;
+    padding-left: 180px;
+    padding-right: 180px;
 }
 
-.progressbar[data-v-b051b3e0] {
-    display: block;
-    margin-right: 24px;
-    height: 2px;
-    background: #e8e7eb;
-    z-index: 1;
+.customer-logo{
+    width: 140px;
+    margin: 8px;
 }
 
