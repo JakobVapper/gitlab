@@ -13,7 +13,6 @@ header{
     width: 100%;
     position: sticky;
     flex-direction: row;
-    border: 1px black solid;
     z-index: 2;
     padding: 4px 24px 16px;
 }
@@ -105,6 +104,12 @@ header{
     width: 50%;
 }
 
+.first-container{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+}
+
 .first-title-text{
     color: #171321;
     margin: 0;
@@ -172,7 +177,59 @@ h2{
     background-color: white;
 }
 
+.second-title-text{
+    color: #171321;
+    margin: 0;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    letter-spacing: -.6px;
+}
+
 .intro-pic{
     max-height: 500px;
     max-width: 100%;
 }
+
+.lines{
+    width: 100%;
+    height: auto;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.progressbar-container[data-v-b051b3e0] {
+    bottom: -64px;
+    max-width: 90vw;
+    margin: 0 0 0 -50%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 768px;
+}
+
+.progressbar-container[data-v-b051b3e0] {
+    margin: 16px 0;
+}
+
+.progressbar-container[data-v-b051b3e0] {
+    display: flex;
+    width: 100%;
+    margin: 32px 0 48px;
+}
+
+.progressbar[data-v-b051b3e0] {
+    display: block;
+    margin-right: 24px;
+    height: 2px;
+    background: #e8e7eb;
+    z-index: 1;
+}
+
