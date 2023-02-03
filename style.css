@@ -215,3 +215,116 @@ h2{
     margin: 8px;
 }
 
+.featured-content{
+    display: flex;
+    flex-direction: row;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 100px;
+}
+
+.featured-content-block{
+    color: inherit;
+    display: flex;
+    border-radius: 4px 4px 4px 4px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 40px;
+    margin: 0 auto;
+    width: 100%;
+    isolation: isolate;
+    background: linear-gradient(141.57deg,#fff .86%,hsla(0,0%,100%,0) 99.96%);
+    z-index: 1;
+    position: relative;
+}
+
+.featured-content-block-logo{
+    width: 24px;
+    height: 24px;
+}
+
+.content-block-title{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    letter-spacing: -.6px;
+    color: #171321;
+    margin: 0;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.content-block-description{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #171321;
+    margin: 0;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+.content-block-button-text{
+    color: #7759c2;
+    padding-left: 0;
+    margin-top: 24px;
+}
+
+.content-block-button{
+    color: #171321;
+    border: none;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    -webkit-text-decoration-color: transparent;
+    text-decoration-color: transparent;
+    transition: all .2s ease-in-out;
+    box-sizing: border-box;
+    font-family: Inter,sans-serif;
+    min-width: 68px;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    vertical-align: middle;
+    padding: 11px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    transition: background-color .3s cubic-bezier(.7,0,.3,1);
+    background-color: transparent;
+    background-image: none;
+}
+
+.content-block-button-arrow{
+    width: 16px;
+    height: 16px;
+    margin-left: 4px;
+    transition: transform .2s ease-in-out;
+    color: #7759c2;
+    padding-left: 0;
+    margin-top: 24px;
+}
