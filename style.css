@@ -218,6 +218,7 @@ h2{
 .featured-content{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     padding-left: 180px;
     padding-right: 180px;
     padding-top: 100px;
@@ -241,6 +242,11 @@ h2{
 .featured-content-block-logo{
     width: 24px;
     height: 24px;
+}
+
+.content-block-container{
+    width: 358px;
+    height: 322px;
 }
 
 .content-block-title{
@@ -328,3 +334,9 @@ h2{
     padding-left: 0;
     margin-top: 24px;
 }
+
+.wrapper{
+    background: url(/nuxt-images/solutions/infinity-icon-cropped.svg) bottom 101% right 102%/2000px,linear-gradient(180deg,#fff 0 50%,#f6f3fe 50% 100%);
+    background-repeat: no-repeat;
+}
+
