@@ -394,3 +394,13 @@ h2{
     transition: all .2s ease-in-out;
 }
 
+.case-study-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.quote-header{
+    display: flex;
+    justify-content: space-between;
+}
